@@ -16,7 +16,6 @@ theme: minima
 # Plugins
 plugins:
   - github-pages
-  - jekyll-last-modified-at
 
 # Exclude from processing.
 # exclude:
