@@ -16,7 +16,7 @@
           {%- if site.email -%}
           <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}
-          <li>Last updated: {{ page.last_modified_at | date: '%Y-%m-%d' }}</li>
+          <li>Last updated: {% last_modified_at %Y-%m-%d %}</li>
         </ul>
       </div>
 
