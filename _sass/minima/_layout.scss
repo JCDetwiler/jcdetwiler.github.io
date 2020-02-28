@@ -162,11 +162,11 @@
 }
 
 .about-header {
-  color: #88B26D;
+  color: $header-color;
 }
 
 .author-list {
-  color: lighten($maroon, 10%);
+  color: $author-color;
 }
 
 

@@ -13,6 +13,10 @@ headshot: "/assets/2018-04-20_headshot.png"
 # Build settings
 theme: minima
 
+# Plugins
+plugins:
+  - jekyll-last-modified-at
+
 # Exclude from processing.
 # exclude:
 #   - .sass-cache/
